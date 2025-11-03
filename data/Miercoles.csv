@@ -29,8 +29,8 @@ Biometría II/Mod.Lin.Grales.y Mixtos ,,TN,Miércoles,17:30,20:30,0,1108,EGE,Fla
 Matemática II,12/11/2025,,Miércoles,10:00,14:00,0,1109,,,,13,Semana de los profesorados
 Int.al Modelado Continuo,,,Miércoles,14:00,18:00,0,1109,DF,Fainstein,,24,Introducción al Modelado Continuo/Ecuaciones de la Física Matemática
 Ecología General,12/11/2025,,Miércoles,18:00,22:00,0,1109,,,,,
-NAM,29/10/2025,,Miércoles,18:00,22:00,0,1109,,,,,
 Conceptos y Técnicas de Biotecnologia,19/11/2025,,Miércoles,18:00,22:00,0,1109,FBMC,Romano,,37,Conceptos y Técnicas de Biotecnologia
+Robótica Móvil,05/11/2025-19/11/2025-26/11/2025,,Miércoles,10:00,13:00,0,1110,,,,,
 Semana de los profesorados,12/11/2025,,Miércoles,10:00,13:00,0,1110,,,,26,Semana de los profesorados
 Biometría II/Mod.Lin.Grales.y Mixtos ,,TT,Miércoles,13:00,16:00,0,1110,EGE,Guidobono,,37,Biometría II/Modelos Lineales Generales y Mixtos
 Cálculo Numérico/ECN,,,Miércoles,16:00,19:00,0,1110,DM,Etcheverry/Pedersen,,20,Cálculo Numérico/Elementos de Cálculo numérico
@@ -42,10 +42,14 @@ Matemática II,,,Miércoles,11:00,14:00,0,1112,DM,Stockdale,,13,Matemática II
 Semana de los profesorados ,12/11/2025,,Miércoles,14:00,16:00,0,1112,,,,27,Semana de los profesorados 
 Cálculo Numérico/ECN,,,Miércoles,16:00,19:00,0,1112,DM,Etcheverry/Pedersen,,20,Cálculo Numérico/Elementos de Cálculo numérico
 Matemática II,,,Miércoles,19:00,22:00,0,1112,DM,Perrella,,13,Matemática II
+Taller de Int.a las Cs.de Población,5/11/2025,,Miércoles,18:00,20:00,0,1113,,,,35,
 Fisiología Animal Comparada,12/11/2025,,Miércoles,10:00,12:00,0,1113,BBE,Rodríguez,,27,Fisiología Animal Comparada
+Taller de Int.a las Cs.de Población,12/11/2025,,Miércoles,18:00,20:00,0,1113,,,,35,
+Int.Neurociencias Cognitivas de Lenguaje,03/12/2025,,Miércoles,9:00,18:00,0,1113,,,,40,
 Semana de los profesorados,12/11/2025,,Miércoles,10:00,13:00,0,1114,,,,26,Semana de los profesorados
 Semana de los profesorados,12/11/2025,,Miércoles,14:00,17:00,0,1114,,,,26,Semana de los profesorados
-Workshop Mixed local and nonlocal operators,26/11/2025,,Miércoles,9:00,17:00,0,1114,,Balderrama (DM),,,
+Curso de Láseres (Estrada),19/11/2025,,Miércoles,9:00,17:00,0,1114,,,,26,
+Workshop Mixed local and nonlocal ops,26/11/2025,,Miércoles,9:00,17:00,0,1114,,Balderrama (DM),,37,
 "Economía, Conceptos y Métodos",,,Miércoles,17:00,21:00,0,1114,,,,29,"Economía, Conceptos y Métodos"
 Aprendizaje Supervisado:Mat.del Learning,,,Miércoles,10:00,14:00,0,1115,,,3º bimestre,40,Aprendizaje Supervisado: la Matemática del Learning
 Drug discovery (Zaiat),12/11/2025,,Miércoles,9:00,13:00,0,1115,,,,22,Drug discovery (Zaiat)
@@ -56,6 +60,7 @@ Ecuaciones Diferenciales ,,,Miércoles,9:00,14:00,0,1204,DM,Fernandez Bonder/Cer
 Redacción y Comunicación Científica ,,,Miércoles,14:00,17:00,0,1204,DCAO,,,36,Redacción y Comunicación Científica (OSMAN) 
 Electromagnetismo y Óptica ,,TB,Miércoles,17:00,21:00,0,1204,DF,Pietrasanta/Gulisano,,27,Electromagnetismo y Óptica 
 Ecología General ,,TA,Miércoles,9:00,13:00,0,1205,EGE,Courtalon,,17,Ecología General 
+CODA,5/11/2025,,miércoles,15:00,18:00,0,1205,,,,,
 Ecología General ,,TC,Miércoles,18:00,22:00,0,1205,EGE,Cristiano,,17,Ecología General 
 Ecología General ,,TB,Miércoles,9:00,13:00,0,1206,EGE,Burroni,,17,Ecología General 
 Int.al Modelado Continuo,,,Miércoles,14:00,18:00,0,1206,EGE,Fainstein,,24,Introducción al Modelado Continuo/Ecuaciones de la Física Matemática
@@ -76,6 +81,7 @@ Química Física II ,,,Miércoles,17:00,22:00,0,1301,QI,Barja,,18,Química Físi
 Biometría II/Mod.Lin.Grales.y Mixtos ,,,Miércoles,9:30,12:00,0,1302,EGE,Pérez,,37,Biometría II/Modelos Lineales Generales y Mixtos 
 Evolución,,,Miércoles,13:00,17:00,0,1302,EGE,Tropeira,,9,Evolución
 Física Teórica 1,,,Miércoles,17:00,22:00,0,1302,DF,Minini/Rubin,,16,Física Teórica 1
+CCP,05/11/2025,,Miércoles,12:00,14:00,0,1303,,,,,
 Semana de los profesorados ,12/11/2025,,Miércoles,10:00,13:00,0,1303,,,,27,Semana de los profesorados 
 Cierre de proyecto / Fleni Fingers,19/11/2025,,Miércoles,11:00,13:00,0,1303,,,,34,Cierre de proyecto / Fleni Fingers
 Reserva Pickholz/Saragueta,26/11/2025,,Miércoles,9:00,13:00,0,1303,,,,26,Reserva Pickholz/Saragueta
@@ -84,15 +90,12 @@ Tesis de Licenciatura ,,,Miércoles,10:00,13:00,0,1304,IC,Farall,,22,Tesis de Li
 Neurobiología del Aprendizaje y la Mem.,,,Miércoles,14:00,17:00,0,1304,FBMC,Romano,,39,Neurobiología del Aprendizaje y la Memoria/Mecanismos de Memoria
 Neurobiología del Aprendizaje y la Mem.,,,Miércoles,18:00,22:00,0,1304,FBMC,Romano,,39,Neurobiología del Aprendizaje y la Memoria/Mecanismos de Memoria
 Int.al Aprendizaje Automático en Grafos,,,Miércoles,9:00,13:00,0,1305,DC,Lombardi,,39,Introducción al Aprendizaje Automático en Grafos / 2025
-Seminario de Topología,29/10/2025,,Miércoles,13:00,15:00,0,1305,,,,,
 Química Orgánica 1,,T2,Miércoles,17:30,20:00,0,1305,QO,Di Chenna,,18,Química Orgánica 1
 Física del Plasma,,,Miércoles,10:00,14:00,0,1306,DF,Minotti/Xaubet,,17,Física del Plasma
 LABI meeting 2025 ,12/11/2025,,Miércoles,14:00,17:00,0,1306,,Pietrasanta,,18,LABI meeting 2025 (Pietrasanta)
 Procesamiento Digital de Geometría,,,Miércoles,17:00,19:00,0,1306,DC,Taubin,,34,Procesamiento Digital de Geometría
 Ciencia de Redes Humanas y Sociales,,,Miércoles,17:00,19:00,0,1306,,,,35,Ciencia de Redes Humanas y Sociales
-Genética ,29/10/2025,,Miércoles,10:00,13:00,2,1307,EGE,Carcagno/Frankel,,9,Genética 
-Teoría de Juegos (DC) 2024,NO29/10/2025-12/11/2025,,Miércoles,14:30,18:00,2,1307,DC,Arbiser,,26,Teoría de Juegos (DC) 2024/Tópicos de Teoría de Juegos
-Álgebra Lineal,29/10/2025,,Miércoles,14:00,18:00,0,1307,,,,14,Álgebra Lineal
+Teoría de Juegos (DC) 2024,NO12/11/2025,,Miércoles,14:30,18:00,2,1307,DC,Arbiser,,26,Teoría de Juegos (DC) 2024/Tópicos de Teoría de Juegos
 Semana de los profesorados,12/11/2025,,Miércoles,10:00,13:00,0,1307,,,,26,Semana de los profesorados
 Semana de los profesorados,12/11/2025,,Miércoles,14:00,17:00,0,1307,,,,26,Semana de los profesorados
 AI,,,Miércoles,18:00,21:00,0,1307,,,,2,AI
@@ -102,15 +105,13 @@ LAGOS 2025 (BONOMO),12/11/2025,,Miércoles,9:00,18:00,0,1308,,,,19,LAGOS 2025 (B
 Evolución ,,,Miércoles,9:30,12:30,0,1309,EGE,Soto/Tubaro,,10,Evolución 
 Microbiología,,,Miércoles,14:30,16:30,0,1309,QB,Edreira,,13,Microbiología
 Biometría ,,,Miércoles,18:30,21:30,0,1309,EGE,Cittadino,,10,Biometría 
-Int.a la Botánica,29/10/2025,,Miércoles,18:00,21:00,0,1401,,,,17,Int.a la Botánica
 Int.a la Botánica,5/11/2025,,Miércoles,18:00,21:00,0,1401,,,,17,Int.a la Botánica
 LAGOS 2025 ,12/11/2025,,Miércoles,9:00,19:00,0,1401,,Bonomo,,11,LAGOS 2025 (BONOMO)
 RESERVA ALBERTO KORNBLIHTT,19/11/2025,,MIércoles,9:00,17:00,0,1401,,,,26,RESERVA ALBERTO KORNBLIHTT
 XIV Conference on Quantum Foundations ,26/11/2025,,Miércoles,8:30,18:00,0,1401,,Bosyk,,38,XIV Conference on Quantum Foundations BOSYK
 Phonons 2025 ,03/12/2025,,Miércoles,9:00,18:00,0,1401,,Bragas,,13,Phonons 2025 (Bragas) del 
-Presentaci{on Biotecnología,29/10/2025,,Miércoles,12:00,16:00,0,1402,,,,27,Presentaci{on Biotecnolog{ia
-Reserva Data Mining (Juan Kamienkovsky),29/10/2025,,Miércoles,17:00,20:00,0,1402,,,,39,Reserva Data Mining (Juan Kamienkovsky)
 Homenaje al Dr Daniel Gomez,5/11/2025,,Miércoles,10:00,12:00,0,1402,,,,,
+CODA,5/11/2025,,Miércoles,15:00,18:00,0,1402,,,,,
 LAGOS 2025 ,12/11/2025,,Miércoles,9:00,18:00,0,1402,,Bonomo,,11,LAGOS 2025 (BONOMO)
 IBBEA  - Perspectivas y desafíos,19/11/2025,,miércoles,11:00,13:00,0,1402,,,,32,IBBEA  - Perspectivas y desafíos
 Reserva CYT Rectorado,26/11/2025,,Miércoles,9:00,17:00,0,1402,,Weinberg Duran,,21,Reserva WEINBERG-CYT-DURAN
@@ -124,19 +125,15 @@ Análisis II/Matemática 3,,T3,Miércoles,17:00,22:00,1,2,DM,De Napoli/Ceresa,,2
 Análisis II/Matemática 3,,T2,Miércoles,9:00,14:00,1,3,DM,Maas/Guadalupe,,24,Análisis II/Matemática 3
 Int.al Modelado Continuo,,,Miércoles,14:00,18:00,1,3,DF,Fainstein,,24,Introducción al Modelado Continuo/Ecuaciones de la Física Matemática
 Optimización Aplicada a la Dist.Log.,,,Miércoles,18:30,21:30,1,3,DC,Negrotto,3º bimestre de 2025,36,Optimización Aplicada a la Distribución Logística/Aplicación de Técnicas de Optimización a la Distribución Logística 
-IP/AEDI,29/10/2025,,Miércoles,9:30,13:30,1,4,,,,7,IP/AEDI
-Álgebra Lineal,29/10/2025,,Miércoles,14:00,18:00,1,4,,,,14,Álgebra Lineal
 Álgebra Lineal,12/11/2025,,Miércoles,14:00,18:00,1,4,,,,14,Álgebra Lineal
-AEDIII/TDA,29/10/2025,,Miércoles,9:00,13:00,1,5,,,,10,AEDIII/TDA
+TDA/AEDIII,12/11/2025,,Miércoles,9:00,13:00,1,5,,,,,
 Matemática I,,TB,Miércoles,17:00,22:00,1,5,DM,Armentano/Rodríguez Cartabia,,12,Matemática I
 Servicio De Higiene Y Seguridad,5/11/2025,,Miércoles,10:00,11:00,1,6,,,,,
-Servicio de Higiene y Seguridad,29/10/2025,,Miércoles,14:00,15:00,1,6,,,,,
 Complementos de Análisis Funcional,,,Miércoles,15:00,18:00,1,6,DC,Carando,,34,Complementos de Análisis Funcional/Tópicos de Complementos de Análisis Funcional
-Servicio de Higiene y Seguridad,29/10/2025,,Miércoles,10:00,11:00,1,7,,,,,
 Matemática I ,12/11/2025,,Miércoles,10:00,14:00,1,7,,,,,
 Grupos de Difeomorfismos,,,Miércoles,14:00,17:00,1,7,DM,Larotonda,,24,Grupos de Difeomorfismos/Difeomorfismos como Grupos de Lie/Frechet
 Física Teórica 3 ,,,Miércoles,9:00,14:00,1,8,DF,Perez Nadal/Zanguinetti,,17,Física Teórica 3 
-Mecánica y Termodinámica,,,Miércoles,17:00,21:00,1,8,DF,Balenzuela/Cornes,,24,Mecánica y Termodinámica
+Mecánica y Termodinámica,,,Miércoles,17:00,21:00,1,8,DF,Balenzuela/Cornes,hasta 25/11/2025,24,Mecánica y Termodinámica
 Matemática I ,,TA,Miércoles,9:00,14:00,1,9,DM,Rodríguez Cartabia/Kun,,13,Matemática I 
 Física 4 ,,,Miércoles,17:00,22:00,1,9,DF,Tamborenea/Vigh,,9,Física 4 
 Int.Computación e Información Cuántica,,,Miércoles,13:00,16:00,1,E24,DM,Mansilla,,38,Introducción a la Computación e Información Cuántica/Teoría de la Computación e Información Cuántica 
@@ -147,8 +144,7 @@ Infraestructura Tecnológica,NO12/11/2025-NO26/11/2025,,Miércoles,17:00,20:00,1
 Est.Sistema Climático 1/Prob.y Est.,12/11/2025,,Miércoles,16:00,19:00,1,Labo 1,,,,35,Estadística para el Sistema Climático 1/Probabilidades y Estadística 
 Reserva Pickholz/Saragueta,26/11/2025,,Miércoles,13:00,18:00,1,Labo 1,,,,26,Reserva Pickholz/Saragueta
 Laboratorio de Pronóstico del Tiempo,,,Miércoles,8:00,13:00,1,Labo 2,DCAO,Mezher/Saucedo,3º bimestre de 2025,36,Pronóstico del Tiempo/Laboratorio de Pronóstico del Tiempo/Técnicas y metodologías para el pronóstico del tiempo – Módulo 1/Técnicas y metodologías para el pronóstico del tiempo – Módulo 2 
-Introducción al Cambio Climatología,29/10/2025,,Miércoles,14:00,19:00,1,Labo 2,DCAO,,,35,Procesamiento de Imágenes I 
-Introducción al Cambio Climatología,NO29/10/2025-NO12/11/2025-NO26/11/2025,,Miércoles,16:00,19:00,1,Labo 2,DCAO,,,35,Procesamiento de Imágenes I 
+Introducción al Cambio Climatología,NO12/11/2025-NO26/11/2025,,Miércoles,16:00,19:00,1,Labo 2,DCAO,,,35,Procesamiento de Imágenes I 
 Infraestructura Tecnológica,12/11/2025 - 26/11/2025,,Miércoles,17:00,20:00,1,Labo 2,DC,Dunayevich,,27,"Infraestructura Tecnológica: Fundamentos, Gestión y Automatización / 4to.bimestre"
 Algoritmos II/Algoritmos y Est.de Datos,,,Miércoles,9:00,14:00,1,Magna,DC,Feuerstein/Tcach/Uchitel,,39,Algoritmos y Estructuras de Datos/Algoritmos y Estructuras de Datos II
 Reserva Santi Sosa/Goodall,19/11/2025,,Miércoles,14:00,17:00,1,Magna,,,,,
@@ -168,7 +164,7 @@ Evaluación en Matemática,,,Miércoles,15:00,19:00,2,111,CCPEMS,Bifano,,24,Eval
 Limnología,,,Miércoles,10:30,12:30,2,112,EGE,Izaguirre/Vera,,10,Limnología
 Limnología,,,Miércoles,13:30,17:00,2,112,EGE,Izaguirre/Vera,,10,Limnología
 Ingeniería Genética,,,Miércoles,18:00,22:00,2,112,FBMC,Colman,,19,Ingeniería Genética/Ingeniería Genética y Biología de Sistemas Moleculares
-Teoría de Juegos (DC) 2024,29/10/2025-12/11/20255,,Miércoles,14:30,19:00,2,113,DC,Arbiser,,26,Teoría de Juegos (DC) 2024/Tópicos de Teoría de Juegos
+Teoría de Juegos (DC) 2024,12/11/20255,,Miércoles,14:30,19:00,2,113,DC,Arbiser,,26,Teoría de Juegos (DC) 2024/Tópicos de Teoría de Juegos
 Instrumentos y Mét.de Observación Ocean.,,,Miércoles,8:00,13:00,2,114,DCAO,Danieli/Cornejo,,40,Instrumentos y Métodos de Observación Oceanográficos
 Ecología de Regiones y Paisajes,,,Miércoles,14:00,16:00,2,114,EGE,Cavia,,31,Ecología de Regiones y Paisajes/Fundamentos de la Ecología de Paisajes y Regiones
 Sistemática de Plantas Vasculares,,,Miércoles,15:00,17:00,2,115,BBE,Iannone,,33,Sistemática de Plantas Vasculares/Tópicos en Sistemática de Plantas Vasculares
@@ -177,6 +173,8 @@ Paleo y Neoclima,,,Miércoles,8:00,10:00,2,116,DCAO,Doyle,,16,Paleo y Neoclima
 Física 3,,,Miércoles,10:00,15:00,2,116,DF,Bejarano,,8,Física 3
 Paleobiología,,,Miércoles,15:00,20:00,2,116,EGE,Laprida,,13,Paleobiología
 Didáctica Esp.y Prác.de la Enseñanza I,,,Miércoles,14:00,20:00,2,117,CCPEMS,Aduriz,,38,Didáctica Especial y Práctica de la Enseñanza I/Didáctica de las Ciencias Naturales
+Secretaria de Habitat (Brigada),5/11/2025,,Miércoles,11:00,13:00,2,203,,,,,
+Secretaria de Habitat (Brigada),5/11/2025,,Miércoles,15:00,17:00,2,203,,,,,
 Redaccion Cientifica,12/11/2025,,Miércoles,9:00,18:00,2,203,,Crespo,,,
 Análisis Instrumental ,,T3,Miércoles,18:00,22:00,2,203,QO,Cabrera/Etchenique,,22,Análisis Instrumental 
 QUIMICA (CBC) DI RISSIO,,,Miércoles,7:00,16:00,2,207,,,,23,QUIMICA (CBC) DI RISSIO

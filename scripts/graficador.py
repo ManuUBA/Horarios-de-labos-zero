@@ -1,13 +1,14 @@
 import csv
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-import requests
 from io import StringIO
 
 dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"]
-base_url = "https://rawcdn.githack.com/ManuUBA/Horarios-zero/main/data/"
 labos = list(range(1103, 1113))
 
+# -------------------------------
+# Conversión de tiempos
+# -------------------------------
 def hora_a_decimal(hora):
     h, m = map(int, hora.split(':'))
     return h + m/60
@@ -17,11 +18,16 @@ def decimal_a_hora(dec):
     m = int((dec - h) * 60)
     return f"{h:02d}:{m:02d}"
 
-def obtener_horarios(url_csv):
-    respuesta = requests.get(url_csv)
-    archivo_csv = StringIO(respuesta.text)
+# -------------------------------
+# Leer CSV desde archivo local
+# -------------------------------
+def obtener_horarios(path_csv):
+    with open(path_csv, encoding="utf-8") as f:
+        archivo_csv = StringIO(f.read())
+
     filas = list(csv.reader(archivo_csv, delimiter=','))
 
+    # Encontrar fila de encabezado
     fila_header = None
     for i, fila in enumerate(filas):
         fila_str = [f.strip().lower() for f in fila]
@@ -30,7 +36,7 @@ def obtener_horarios(url_csv):
             break
 
     if fila_header is None:
-        raise ValueError(f"No se encontró encabezado válido en {url_csv}")
+        raise ValueError(f"No se encontró encabezado válido en {path_csv}")
 
     header = [h.strip() for h in filas[fila_header]]
     datos = filas[fila_header + 1:]
@@ -48,6 +54,7 @@ def obtener_horarios(url_csv):
     c_hasta  = col("fin")
     c_pab    = col("pab")
 
+    # Filtrar solo laboratorios en pabellón 0
     filas_labo = []
     for f in datos:
         if len(f) <= max(c_aula, c_desde, c_hasta, c_pab):
@@ -58,6 +65,7 @@ def obtener_horarios(url_csv):
         except ValueError:
             continue
 
+    # Agrupar tandas por aula
     horarios_labo = []
     for aula in labos:
         tandas = [[f[c_desde], f[c_hasta]] for f in filas_labo if int(f[c_aula]) == aula]
@@ -65,12 +73,17 @@ def obtener_horarios(url_csv):
 
     return horarios_labo
 
+# -------------------------------
+# Generación del gráfico
+# -------------------------------
 fig, axes = plt.subplots(3, 2, figsize=(18, 12))
 axes = axes.flatten()
 
 for idx, dia in enumerate(dias):
     ax = axes[idx]
-    horarios_labo = obtener_horarios(f"{base_url}{dia}.csv")
+
+    # 🔥 Ahora usa los CSV generados por el workflow
+    horarios_labo = obtener_horarios(f"data/{dia}.csv")
 
     ax.set_xlim(8, 23)
     ax.set_ylim(0, len(labos))
@@ -79,7 +92,7 @@ for idx, dia in enumerate(dias):
     ax.set_xlabel("Hora")
     ax.set_ylabel("Laboratorio")
 
-    # Líneas horizontales que delimitan cada laboratorio
+    # Líneas horizontales
     for j in range(len(labos) + 1):
         ax.axhline(j, color="black", linewidth=0.8)
 
@@ -87,7 +100,8 @@ for idx, dia in enumerate(dias):
     for jdx, aula in enumerate(horarios_labo):
         ax.add_patch(patches.Rectangle((8, jdx), 15, 1, facecolor='green', alpha=0.3))
         for inicio_str, fin_str in aula:
-            inicio, fin = hora_a_decimal(inicio_str), hora_a_decimal(fin_str)
+            inicio = hora_a_decimal(inicio_str)
+            fin    = hora_a_decimal(fin_str)
             ax.add_patch(patches.Rectangle((inicio, jdx), fin-inicio, 1, facecolor='red'))
 
     if idx == 0:
@@ -97,6 +111,7 @@ for idx, dia in enumerate(dias):
 
     ax.set_title(dia)
 
+# Marca de tiempo cada media hora
 marcas = [8 + 0.5*i for i in range((23-8)*2 + 1)]
 for ax in axes:
     ax.set_xticks(marcas)
@@ -105,6 +120,6 @@ for ax in axes:
 
 plt.suptitle("Grilla de ocupación de laboratorios - Semana completa", fontsize=16)
 plt.tight_layout(rect=[0, 0, 1, 0.96])
-plt.savefig("grafico.png")
-plt.show()
+
+plt.savefig("figures/grafico.png")
 plt.close()
